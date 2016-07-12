@@ -7,7 +7,7 @@ import createTextMaskInputElement from '../../core/src/createTextMaskInputElemen
 @Directive({
   selector: 'input[textMask]',
   host: {
-    '(input)': 'onInput()'
+    '(ion-input)': 'onInput()'
   }
 })
 export default class MaskedInputDirective {
